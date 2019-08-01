@@ -1,0 +1,32 @@
+.banner {
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+}
+
+  .btn {
+    color: white;
+    padding: 15px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: #6AD58B;
+    transition: background 0.3s ease;
+  }
+
+  .btn:hover {
+    opacity: 1;
+    background: #3ac162;
+    text-decoration: none;
+    color: white;
